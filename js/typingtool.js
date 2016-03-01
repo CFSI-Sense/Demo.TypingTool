@@ -9,7 +9,7 @@
 var config = {
     host: "52.5.30.219",
     prefix: "/google/",
-    port: 3000,
+    port: 443,
     isSecure: false
 };
 require.config({
