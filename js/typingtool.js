@@ -46,7 +46,7 @@ require( ["js/qlik"], function ( qlik ) {
 	app.getObject('QV11','KuLHYSM');
 	app.getObject('QV12','MEZZhN');
 	app.getObject('QV13','QBLK');
-	app.getObject('QV14','BhPyU);
+	app.getObject('QV14','BhPyU');
 
 
 
