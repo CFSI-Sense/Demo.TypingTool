@@ -8,7 +8,7 @@
  */
 var config = {
     host: "52.5.30.219",
-    prefix: "/google",
+    prefix: "/google/",
     port: 80,
     isSecure: false
 };
