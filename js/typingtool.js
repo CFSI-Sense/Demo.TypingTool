@@ -13,7 +13,7 @@ var config = {
     isSecure: window.location.protocol === "http:"
 };
 require.config({
-    baseUrl: (config.isSecure ? "https://" : "http://") + config.host + (config.port ? ":" + config.port : "") + config.prefix + "resources"
+    baseUrl: "http://") + config.host + (config.port ? ":" + config.port : "") + config.prefix + "resources"
 });
 
 
