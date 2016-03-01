@@ -10,7 +10,7 @@ var config = {
     host: "52.5.30.219",
     prefix: "/google/",
     port: 80,
-    isSecure: window.location.protocol === "http:"
+    isSecure: false
 };
 require.config({
     baseUrl: "http://" + config.host + (config.port ? ":" + config.port : "") + config.prefix + "resources"
