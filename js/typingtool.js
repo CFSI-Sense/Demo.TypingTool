@@ -27,7 +27,7 @@ require( ["js/qlik"], function ( qlik ) {
 	var app = qlik.openApp('2bfbd1ca-b3ea-4ef7-a316-56bd3f67b553', config); //
 
 	
-	//get objects -- inserted here --
+	
 	
 	//get total #
 	app.getObject('QV01','eDPHWHz');
@@ -36,6 +36,7 @@ require( ["js/qlik"], function ( qlik ) {
 	app.getObject('QV02','UhqDeNU');
 	app.getObject('QV03','UdUMcJY');
 	
+	//get objects -- inserted here --
 	app.getObject('QV04','eSmfawp');
 	app.getObject('QV05','ZwzKJJ');
 	app.getObject('QV06','aVdPw');
@@ -47,8 +48,7 @@ require( ["js/qlik"], function ( qlik ) {
 	app.getObject('QV12','MEZZhN');
 	app.getObject('QV13','QBLK');
 	app.getObject('QV14','BhPyU');
-
-
+	
 
 	//Clear Selections button
     $('.clearButton').on('click', function(e) {
