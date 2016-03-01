@@ -7,7 +7,7 @@
  *    Fill in host and port for Qlik engine
  */
 var config = {
-    host: "http://52.5.30.219/",
+    host: "52.5.30.219",
     prefix: "/google",
     port: 3000,
     isSecure: false
