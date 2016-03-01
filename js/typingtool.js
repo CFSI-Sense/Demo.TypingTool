@@ -29,22 +29,26 @@ require( ["js/qlik"], function ( qlik ) {
 	
 	//get objects -- inserted here --
 	
-	app.getObject('QV03','aVdPw');
-	app.getObject('QV04','ZwzKJJ');
-	app.getObject('QV05','eSmfawp');
-	//app.getObject('QV06','csXjXYA');
-	//app.getObject('QV07','BVbpZv');
-	//app.getObject('QV08','awfpES');
-	//app.getObject('QV09','MyAuBm');
-	//app.getObject('QV10','raUZcgG');
-	//app.getObject('QV11','EcpuS');
-	//app.getObject('QV12','ntpHbT');
-	//app.getObject('QV13','SupJKJ');
-
-	//get listboxes
-	app.getObject('QV01','UhqDeNU');
-	app.getObject('QV02','UdUMcJY');
+	//get total #
+	app.getObject('QV01','eDPHWHz');
 	
+	//get listboxes
+	app.getObject('QV02','UhqDeNU');
+	app.getObject('QV03','UdUMcJY');
+	
+	app.getObject('QV04','eSmfawp');
+	app.getObject('QV05','ZwzKJJ');
+	app.getObject('QV06','aVdPw');
+	app.getObject('QV07','jNpppz');
+	app.getObject('QV08','MUVGqYH');
+	app.getObject('QV09','CNumbng');
+	app.getObject('QV10','HDNcGR');
+	app.getObject('QV11','KuLHYSM');
+	app.getObject('QV12','MEZZhN');
+	app.getObject('QV13','QBLK');
+	app.getObject('QV14','BhPyU);
+
+
 
 	//Clear Selections button
     $('.clearButton').on('click', function(e) {
