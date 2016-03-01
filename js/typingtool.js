@@ -24,7 +24,7 @@ require( ["js/qlik"], function ( qlik ) {
 
 	//callbacks -- inserted here --
 	//open apps -- inserted here --
-	var app = qlik.openApp('6dcf192e-cab9-417a-8fb7-5517cd68373e', config); //
+	var app = qlik.openApp('2bfbd1ca-b3ea-4ef7-a316-56bd3f67b553', config); //
 
 	
 	//get objects -- inserted here --
@@ -42,8 +42,8 @@ require( ["js/qlik"], function ( qlik ) {
 	app.getObject('QV11','SupJKJ');
 
 	//get listboxes
-	app.getObject('QV12','JHgC');
-	app.getObject('QV13','Fdpdqp');
+	app.getObject('QV01','eSmfawp');
+	app.getObject('QV02','UhqDeNU');
 	
 
 	//Clear Selections button
