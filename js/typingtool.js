@@ -8,7 +8,7 @@
  */
 var config = {
     host: "52.5.30.219",
-    prefix: "/anonymous/",
+    prefix: "/google/",
     port: 443,
     isSecure: false
 };
