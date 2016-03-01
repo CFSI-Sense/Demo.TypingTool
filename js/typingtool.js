@@ -7,10 +7,10 @@
  *    Fill in host and port for Qlik engine
  */
 var config = {
-    host: "http://52.5.30.219/google/",
-    prefix: "/",
-    port: 4000,
-    isSecure: true
+    host: "http://52.5.30.219/",
+    prefix: "/google",
+    port: 3000,
+    isSecure: false
 };
 require.config({
     baseUrl: (config.isSecure ? "https://" : "http://") + config.host + (config.port ? ":" + config.port : "") + config.prefix + "resources"
