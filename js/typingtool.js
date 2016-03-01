@@ -57,3 +57,14 @@ require( ["js/qlik"], function ( qlik ) {
     })
 	
 	//create cubes and lists -- inserted here --
+
+	app.createGenericObject({
+	  'kpi': {
+	     qStringExpression: '=Count(distinct ID)'
+	  }
+	}, function(reply) {
+	  //do something with reply
+	  $('#QVN01').text(reply.kpi)
+	})
+
+} );
