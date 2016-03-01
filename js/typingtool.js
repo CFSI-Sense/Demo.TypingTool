@@ -7,9 +7,9 @@
  *    Fill in host and port for Qlik engine
  */
 var config = {
-    host: "sense-demo.qlik.com",
+    host: "http://52.5.30.219/google/",
     prefix: "/",
-    port: 443,
+    port: 4000,
     isSecure: true
 };
 require.config({
